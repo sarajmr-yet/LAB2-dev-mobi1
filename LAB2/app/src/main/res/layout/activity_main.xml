@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Calcul des impôts"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Surface -->
+    <EditText
+        android:id="@+id/input_surface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Surface (m²)"
+        android:inputType="number"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/input_pieces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de pièces"
+        android:inputType="number"
+        android:layout_marginBottom="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_piscine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piscine 🏊"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Bouton -->
+    <Button
+        android:id="@+id/button_calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculer"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Résultat -->
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Résultat :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

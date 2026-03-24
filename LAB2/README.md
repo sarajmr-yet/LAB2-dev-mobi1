@@ -20,9 +20,17 @@ Impôt = (surface × 2) + (pièces × 50) + (100 si piscine)
 
 ###  Résultat du calcul
 ![Résultat](images/resultat.jpeg)
+
 ##  Résultat sans piscine
 ![Sans piscine](images/sans_piscine.jpeg)
 ---
+
+##  Validation des entrées
+
+L'application vérifie que tous les champs sont remplis avant le calcul.  
+Si un champ est vide, un message d’erreur s’affiche pour éviter un crash.
+
+![Champ vide](images/champ_vide.jpeg)
 
 ##  Fonctionnalités
 - Saisie de la surface et du nombre de pièces   

@@ -20,7 +20,8 @@ Impôt = (surface × 2) + (pièces × 50) + (100 si piscine)
 
 ###  Résultat du calcul
 ![Résultat](images/resultat.jpeg)
-
+##  Résultat sans piscine
+![Sans piscine](images/sans_piscine.jpeg)
 ---
 
 ##  Fonctionnalités

@@ -1,7 +1,11 @@
 # LAB 2 – Calculateur d’impôts locaux
 
 
-
+##  Objectif
+Développer une application Android permettant de calculer le montant total des impôts locaux en fonction de :
+- la surface de la maison
+- le nombre de pièces
+- la présence d’une piscine
 ##  Méthode de calcul
 
 Le calcul est basé sur la formule suivante :
